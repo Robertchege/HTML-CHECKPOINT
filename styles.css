@@ -5,11 +5,13 @@ color: black;
 
 }
 nav{
-    text-align: center;
+    
     background-color: yellow;
     color: white;
     padding: 1em;
     display: inline;
+    margin-bottom: 0;
+    text-align: center;
    
 }
 nav a{
@@ -28,6 +30,9 @@ body{
     font-family: 'Roboto' sans-serif;
     background-color: white;
     background-image: url(images/back.jpeg);
+    margin: 0;
+    padding: 0;
+
     
 }
 video{
@@ -37,5 +42,12 @@ video{
     margin-bottom: 20px;
     height: 40%;
     
+}
+img{
+    display: block;
+    margin-left: 1px;
+    width: 250px;
+    margin-top: 30px;
+    height: 250px;
 }
 
